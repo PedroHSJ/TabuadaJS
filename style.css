@@ -1,4 +1,4 @@
-@media (min-width: 748px){
+@media (min-width: 415px){
     *{
         font-family: 'Share Tech Mono', monospace;
     }
@@ -11,7 +11,6 @@
         letter-spacing: 5px;
         color: #fff;
     }
-
     section{
         background-color: white;
         border-radius: 10px;
@@ -51,8 +50,23 @@
         font-size: 14pt;
         margin-top: 10px;
     }
+
+    #botao:hover{
+        background-color: rgba(13, 206, 13, 0.7);
+        color: white;
+
+        border-radius: 5px;
+        border:none;
+
+        font-size: 14pt;
+        margin-top: 10px;
+
+        cursor: pointer;
+
+        transition: all 0.2s;
+    }
 }
-@media (max-width:375px){
+@media (max-width: 414px){
     *{
         padding: 0;
         margin: 0;
@@ -87,7 +101,7 @@
         background-color: white;
         border: 2px solid #888;
         border-radius: 10px;
-        box-shadow: 3px 3px 20px #444;
+        
 
         padding: 0 20px 0 20px;
         
@@ -136,3 +150,4 @@
 
 
 }
+
